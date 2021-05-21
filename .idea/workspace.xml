@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab97516a-a820-464f-9013-aef25608ec14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/mobilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/runner/MyrunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/runner/MyrunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/MainPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/MainPage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/jqueryui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/jqueryui.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/runner/MyrunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/runner/MyrunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/restAssured.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utils/CapabilitiesManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utils/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utils/GlobalParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utils/PropertyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utils/ServerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utils/TestUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utils/UtilsClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MainPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainPage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/MainPageStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/MainPageStepDefinitions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/jqueryui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/jqueryui.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssured.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,17 +54,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="feature" value="1203" />
-          <entry key="java" value="3613" />
+          <entry key="feature" value="1635" />
+          <entry key="java" value="4894" />
           <entry key="properties" value="2" />
+          <entry key="txt" value="15" />
           <entry key="xml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="1182" />
-          <entry key="JAVA" value="3613" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="Cucumber" value="1614" />
+          <entry key="JAVA" value="4894" />
+          <entry key="PLAIN_TEXT" value="40" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="55" />
         </counts>
@@ -53,9 +73,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="feature" value="22" />
+          <entry key="feature" value="26" />
           <entry key="html" value="1" />
-          <entry key="java" value="60" />
+          <entry key="java" value="83" />
           <entry key="properties" value="3" />
           <entry key="xml" value="8" />
         </counts>
@@ -63,9 +83,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Cucumber" value="18" />
+          <entry key="Cucumber" value="22" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="83" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="8" />
@@ -76,13 +96,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/runner/MyrunnerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/MainPage.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -90,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="35">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,28 +117,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/MainPage.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/restAssuredStepDefination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-190">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -134,10 +133,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/WebInteractionsStepDefinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+            <state relative-caret-position="723">
+              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,19 +145,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/Jqueryweb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="8" selection-end-column="80" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1960#1961#0" expanded="true" />
+                <element signature="e#2017#2018#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-576">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/jqueryui.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-start-column="1" selection-end-line="11" selection-end-column="34" />
+              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/mobilePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,8 +200,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/restAssured.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="16" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -191,6 +225,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -199,28 +234,30 @@
         <option value="$PROJECT_DIR$/src/test/resources/MobileLogin.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/MyrunnerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageDef.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/WebInteractionsStepDefinations.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/pages/Jqueryweb.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/restAssuredStepDefination.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/pages/restAssuredPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/restAssured.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/MainPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/extentReport.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/runner/MyrunnerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/pages/mobilePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java" />
         <option value="$PROJECT_DIR$/src/test/resources/jqueryui.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/restAssured.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/MainPage.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java" />
       </list>
     </option>
   </component>
@@ -306,6 +343,14 @@
               <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,7 +421,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621592716413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621604921099" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -512,37 +557,45 @@
       <option name="presentableId" value="Default" />
       <updated>1621510570359</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated changes">
+      <created>1621592775355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621592775355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyrunnerTest - 2021.05.21 at 14h 02m 45s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 32m 51s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 14h 39m 00s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 33m 18s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 41m 06s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 34m 19s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 41m 59s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 35m 12s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 43m 07s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 36m 08s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 43m 36s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 52m 29s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 49m 06s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 53m 56s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 49m 38s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 19h 05m 16s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 52m 23s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 19h 15m 00s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 15h 54m 23s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.21 at 19h 18m 13s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -558,7 +611,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42771083" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42771083" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,14 +639,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5048193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42771083" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917705" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -617,6 +670,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated changes" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -701,85 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="19" column="92" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-          <folding>
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/WebInteractionsStepDefinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/5.6.0/cucumber-core-5.6.0.jar!/io/cucumber/core/plugin/PluginFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -797,94 +775,10 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/Jqueryweb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/restAssuredPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="8" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/extentReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/restAssuredStepDefination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,10 +789,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/restAssured.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/restAssuredPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="592">
+          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -912,27 +809,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        <state relative-caret-position="-729">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="7" lean-forward="true" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" lean-forward="true" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="38" lean-forward="true" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/restAssured.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/MainPage.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/jqueryui.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-start-column="1" selection-end-line="11" selection-end-column="34" />
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/mobilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/restAssuredStepDefination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/WebInteractionsStepDefinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/Jqueryweb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>

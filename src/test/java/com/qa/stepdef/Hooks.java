@@ -1,6 +1,6 @@
 package com.qa.stepdef;
 
-import com.qa.utils.ServerManager;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -25,7 +25,7 @@ import static org.openqa.selenium.remote.ErrorCodes.TIMEOUT;
 public class Hooks {
 
     public static WebDriver wdriver;
-    static AppiumDriver<MobileElement> driver;
+    public static AppiumDriver<MobileElement> driver;
 
 
     @Before
@@ -42,6 +42,7 @@ public class Hooks {
         //caps.setCapability("app", "apps/selendroid-test-app-0.17.0.apk");
         caps.setCapability("appPackage", "io.selendroid.testapp");
         caps.setCapability("appActivity", "io.selendroid.testapp.HomeScreenActivity");
+        caps.setCapability("autoAcceptAlerts", true);
 
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AppiumDriver<MobileElement>(url, caps);
@@ -72,7 +73,7 @@ public class Hooks {
 
         if (testtype.equalsIgnoreCase("rst")) {
             System.out.println("*********Stopping rest assured validation*********");
-        } else {
+        } else if (testtype.equalsIgnoreCase("web")){
 
             try {
 
@@ -83,8 +84,26 @@ public class Hooks {
             } catch (Exception e) {
                 System.out.println(e.toString());
             }
+            finally {
+                wdriver.quit();
+            }
 
-            wdriver.quit();
+
+
+        } else if(testtype.equalsIgnoreCase("mob")){
+            try {
+
+                byte[] screenshot = ((TakesScreenshot) wdriver).getScreenshotAs(OutputType.BYTES);
+                scenario.attach(screenshot, "image/png", scenario.getName());
+
+
+            } catch (Exception e) {
+                System.out.println(e.toString());
+            }
+            finally {
+                driver.quit();
+            }
+
 
         }
     }
