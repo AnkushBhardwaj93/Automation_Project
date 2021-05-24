@@ -1,4 +1,4 @@
-Feature: Verify Mobile app using appium
+Feature: Verify Title
 
   Scenario Outline: mob_Verify the title of page
     Given application is launched
@@ -7,8 +7,8 @@ Feature: Verify Mobile app using appium
     Then verify page title
 
     Examples:
-    ||
-    ||
+      ||
+      ||
 
   Scenario Outline: mob_Verify user able to click on Display Toast
     Given application is launched

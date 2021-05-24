@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab97516a-a820-464f-9013-aef25608ec14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/MainPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/MainPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/jqueryui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/jqueryui.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/restAssured.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MainPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/MainPageStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/stepdef/MainPageStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jqueryui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/jqueryui.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssured.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,49 +30,50 @@
           <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="feature" value="1635" />
-          <entry key="java" value="4894" />
-          <entry key="properties" value="2" />
+          <entry key="feature" value="1638" />
+          <entry key="java" value="5174" />
+          <entry key="properties" value="26" />
           <entry key="txt" value="15" />
           <entry key="xml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="1614" />
-          <entry key="JAVA" value="4894" />
+          <entry key="Cucumber" value="1617" />
+          <entry key="JAVA" value="5174" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Properties" value="2" />
+          <entry key="Properties" value="26" />
           <entry key="XML" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="feature" value="26" />
+          <entry key="feature" value="29" />
           <entry key="html" value="1" />
-          <entry key="java" value="83" />
-          <entry key="properties" value="3" />
+          <entry key="java" value="84" />
+          <entry key="properties" value="4" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Cucumber" value="22" />
+          <entry key="Cucumber" value="25" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="83" />
+          <entry key="JAVA" value="84" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="4" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -69,14 +81,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="495">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="72" column="58" lean-forward="true" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/MainPage.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/restAssured.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/jqueryui.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -111,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageDef.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/login.feature" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/WebInteractionsStepDefinations.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/pages/Jqueryweb.java" />
@@ -128,11 +187,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/jqueryui.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/restAssured.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/MainPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utils/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/restAssured.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/jqueryui.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/MainPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
       </list>
     </option>
   </component>
@@ -185,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -210,61 +272,6 @@
               <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdef" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,23 +289,25 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621605576108" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621846794827" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/test/resources/apps" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.qa.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/resources/apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,45 +445,53 @@
       <option name="project" value="LOCAL" />
       <updated>1621604983093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated changes">
+      <created>1621843206483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621843206483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 32m 51s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 13m 23s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 33m 18s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 14m 09s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 34m 19s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 15m 00s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 35m 12s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 18m 39s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 36m 08s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 19m 13s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 52m 29s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 20m 19s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 18h 53m 56s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 21m 45s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 19h 05m 16s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 23m 31s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 19h 15m 00s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 24m 12s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyrunnerTest - 2021.05.21 at 19h 18m 13s.xml">
+    <history-entry file="MyrunnerTest - 2021.05.24 at 14h 25m 21s.xml">
       <configuration name="MyrunnerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27968526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,7 +501,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.42771083" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -550,50 +567,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>scenario.getName().substring(0, 4)</expression-string>
+        <expression-string>properties.getProperty(&quot;platformName&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>scenario.getName().substring(0, 3)</expression-string>
+        <expression-string>new FileInputStream(&quot;src\&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>given().contentType(ContentType.JSON)
-                .body(payload)
-                .post(url)
-                .then().log().body().extract().path(&quot;id&quot;)</expression-string>
+        <expression-string>new FileInputStream(file)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(given().when().get(url).then().extract().path(&quot;data[&quot;+i+&quot;].id&quot;)).toString().equalsIgnoreCase(&quot;7&quot;)</expression-string>
+        <expression-string>new File(propertyFilePath)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(given().when().get(url).then().extract().path(&quot;data[&quot;+i+&quot;].id&quot;)).toString()</expression-string>
+        <expression-string>File(propertyFilePath)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(given().when().get(url).then().extract().path(&quot;data[&quot;+i+&quot;].id&quot;))</expression-string>
+        <expression-string>BufferedReader(new FileReader(&quot;automation//src//main//java//com//config.properties&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(given().when().get(url).then().extract().path(&quot;data[&quot;+i+&quot;].id&quot;))==&quot;7&quot;</expression-string>
+        <expression-string>BufferedReader(new FileReader(&quot;/Users/ankushbhardwaj/Documents/automation/src/main/java/com/config.properties&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(given().when().get(url).then().extract().path(&quot;data[&quot;+i+&quot;].id&quot;))==&quot;8&quot;</expression-string>
+        <expression-string>BufferedReader(new FileReader(&quot;com//config.properties&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(given().when().get(url).then().extract().path(&quot;data[&quot;+i+&quot;].id&quot;))==&quot;8&quot;)</expression-string>
+        <expression-string>BufferedReader(new FileReader(&quot;com//&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -602,20 +616,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/runner.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/MobileLogin.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/login.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -647,13 +649,7 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/extentReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/extentReport.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
@@ -675,92 +671,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="7" lean-forward="true" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="true" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="38" lean-forward="true" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/restAssured.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/MainPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/jqueryui.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/BasePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/DriverManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/GlobalParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/PropertyManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/ServerManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/TestUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/UtilsClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utils/CapabilitiesManager.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/pages/mobilePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -807,20 +728,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/MainPageStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="495">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/restAssured.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MainPage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/stepdef/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="72" column="58" lean-forward="true" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/jqueryui.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>

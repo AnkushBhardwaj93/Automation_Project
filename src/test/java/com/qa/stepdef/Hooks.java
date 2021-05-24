@@ -15,33 +15,59 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.sql.DriverManager;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import static org.openqa.selenium.remote.ErrorCodes.TIMEOUT;
+
 
 public class Hooks {
 
     public static WebDriver wdriver;
     public static AppiumDriver<MobileElement> driver;
+    private static Properties properties;
+    private final String propertyFilePath= System.getProperty("user.dir")+"/src/main/resources/config.properties";
+    FileInputStream fileInput = null;
 
 
-    @Before
+    public void ConfigFileReader() {
+        BufferedReader reader;
+        try {
+            File file = new File(propertyFilePath);
+            fileInput = new FileInputStream(file);
+
+            properties = new Properties();
+            try {
+                properties.load(fileInput);
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
+        }
+    }
+
+
+        @Before
     public static void initialize(Scenario scenario) throws Exception {
+            Hooks hooks = new Hooks();
+            hooks.ConfigFileReader();
         String testtype = scenario.getName().substring(0,3);
 
     if(testtype.equalsIgnoreCase("mob")) {
 
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("platformName", "ANDROID");
-        caps.setCapability("platformVersion", "10");
-        caps.setCapability("deviceName", "SM A505F");
-        caps.setCapability("udid", "RZ8M301ZBTL");
+        caps.setCapability("platformName", properties.getProperty("platformName"));
+        caps.setCapability("platformVersion", properties.getProperty("platformVersion"));
+        caps.setCapability("deviceName", properties.getProperty("deviceName"));
+        caps.setCapability("udid", properties.getProperty("udid"));
         //caps.setCapability("app", "apps/selendroid-test-app-0.17.0.apk");
-        caps.setCapability("appPackage", "io.selendroid.testapp");
-        caps.setCapability("appActivity", "io.selendroid.testapp.HomeScreenActivity");
+        caps.setCapability("appPackage", properties.getProperty("appPackage"));
+        caps.setCapability("appActivity", properties.getProperty("appActivity"));
         caps.setCapability("autoAcceptAlerts", true);
 
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
